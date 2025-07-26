@@ -1,0 +1,18 @@
+.page__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 34px auto 0;
+    color: #FFFFFF;
+    max-width: 254.83px;
+    height: 68.94px;
+}
+.top-icon{
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+.header-text{
+    width: 100%;
+    height: 14.94px;
+}
