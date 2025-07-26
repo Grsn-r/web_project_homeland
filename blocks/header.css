@@ -1,4 +1,4 @@
-.page__header{
+.header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
     max-width: 254.83px;
     height: 68.94px;
 }
-.top-icon{
+.header__icon{
     width: 32px;
     height: 32px;
     margin: auto;
