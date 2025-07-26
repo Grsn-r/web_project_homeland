@@ -3,7 +3,6 @@
     flex-direction: column;
     margin: auto;
     max-width: 984px;
-    max-height: 983px;
     font-family: 'Inter Black';
     justify-content: center;
     margin-top: 100px;
@@ -23,7 +22,6 @@
 }
 .lead__subtitle{
     max-width: 720px;
-    max-height: 72px;
     margin: auto;
     color: #fff;
     font-family: 'Inter';

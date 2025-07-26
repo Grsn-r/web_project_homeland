@@ -1,16 +1,16 @@
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/footer.css);
 @font-face {
-    src: url(./fonts/Inter-4.1/Inter.ttc) format('truetype');
+    src: url(../fonts/Inter-4.1/Inter.ttc) format('truetype');
     font-family: 'Inter';
 }
 @font-face{
-    src: url(./fonts/Inter-4.1/web/Inter-Black.woff2) format('woff2');
+    src: url(../fonts/Inter-4.1/web/Inter-Black.woff2) format('woff2');
     font-family: 'Inter Black';
 }
-@import url(./page.css);
-@import url(./header.css);
-@import url(./lead.css);
-@import url(./intro.css);
-@import url(./footer.css);
 @media screen and (max-width: 768px){
     .page{
         max-width: 768px;
@@ -41,6 +41,9 @@
     .header-text{
         max-width: 188.62px;
         max-height: 11.1px;
+    }
+    .lead{
+        margin: 10px;
     }
     .lead__title{
         font-size: 40px;
