@@ -37,3 +37,22 @@
     max-width: 984x;
     width: 100%
 }
+@media screen and (max-width: 768px){
+    .lead__title{
+        font-size: 75px;
+        line-height: 79px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead{
+        margin: 10px;
+    }
+    .lead__title{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
