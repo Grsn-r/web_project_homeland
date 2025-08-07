@@ -13,8 +13,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    column-gap: 4%;
-    row-gap: 5%;
+    gap: 20px;
 }
 .places__title{
     display: flex;
@@ -54,7 +53,7 @@
     cursor: default;
 }
 .places__image{
-    width: 100%;
+    max-width: 100%;
     box-shadow: 10px 10px 25px 0 #000;
 }
 .places__image:hover{
@@ -129,9 +128,7 @@
         grid-row: 4/5;
     }
     .places__buy{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
     .places__buy_button{
         width: 288px;
